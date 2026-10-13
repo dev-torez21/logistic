@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sec1 {
+    background-color: white;
+}
+
+nav {
+    padding: 40px 70px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    gap: 250px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sec1a a {
+    color: #FD7D46;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sec1b {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sec1b11 {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: #150D09;
+}
+
+.sec1b1 {
+    color: #002F3C;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sec1c {
+    width: 130px;
+    background-color: #FD7D46;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+.sec1c a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sec2 {
+    background-image: url(image/Rectangle\ 1.png);
+    width: 1200px;
+    height: 777.71px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 70px;
+    overflow: hidden;
+    border-radius: 50px;
+    top: 102.39px;
+}
+
+.sec2-container {
+    padding-top: 200.09px;
+    padding-left: 20px;
+    width: 862.29px;
+}
+
+.sec2-container h1 {
+    width: 862.29px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.sec2-container p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+}
+
+.sec2-child {
+    display: flex;
+    /* width: 260px; */
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.sec2-childi {
+    border-radius: 20px;
+    background-color: #FD7D46;
+    padding: 10px;
+    width: 120px;
+}
+
+.sec2-childi a {
+    width: 99px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sec2-childii {
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    border: 2px solid #FFEDE5;
+}
+
+.sec2-childii a {
+    width: 91px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sec-3 {
+    background-image: url(image/Vector\ 1.png);
+    /* width: 1200px; */
+    height: 514.32px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 250px;
+    position: relative;
+}
+
+.sec3-container {
+    padding: 0 70px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    height: 375px;
+    bottom: 300px;
+}
+
+.sec3-cards {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap: 40px;
+}
+
+.sec3-card {
+    border-radius: 20px;
+    background-color: #FFEDE5;
+    height: 500px;
+    width: 350px;
+}
+.sec3-card h2 {
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #000000;
+}
+.sec3-card img {
+    height: 415.54px;
+    margin-bottom: 0;
+}
+.sec3-head h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 7px; */
+    justify-content: center;
+    position: relative;
+}
+.sec3-headhr1 {
+    width: 124.15px;
+    height: 1px;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 22px;
+    right: 385px;
+}
+.sec3-headhr2 {
+    width: 124.15px;
+    height: 1px;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 22px;
+    left: 385px;
+
+}
+.sec3-headp {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.sec4 {
+    background-color: #ffffff;
+    height: 900px;
+}
