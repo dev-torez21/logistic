@@ -232,3 +232,12 @@ nav {
     background-color: #ffffff;
     height: 900px;
 }
+.sec3-card {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.4s ease-out;
+}
+.sec3-card:hover {
+    transform: scale(1.2);
+}
