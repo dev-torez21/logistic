@@ -234,8 +234,7 @@ nav {
 }
 .sec3-card {
     gap: 40px;
-    display: flex;
-    flex-direction: column;
+    display: block; 
     transition: transform 0.4s ease-out;
 }
 .sec3-card:hover {
